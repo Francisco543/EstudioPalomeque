@@ -2,11 +2,6 @@ import React,{Fragment, useState, useReducer} from 'react'
 import styled from 'styled-components'
 import Aos from "aos"
 import "aos/dist/aos.css"
-
-
-
-
-
 const MainContainer = styled.div`
     display: flex;
     flex-direction: row;
@@ -16,7 +11,7 @@ const MainContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     @media (max-width: 1441px){
-            height: 1000px;
+            height: 1500px;
         }
         @media (max-width: 710px){
             height: 2300px;
@@ -107,18 +102,18 @@ const Seccion1 = styled.div`
     flex-direction: column;
     
     background-color: #f3efef9d;
-    height: 500px;
+    height: 300px;
     align-items: center;
     justify-content: center;
     @media (max-width: 1441px){
-            height: 820px;
+            height: 300px;
             justify-content: center;
             flex-direction: column;
             justify-content: center;
             align-items: center;
         }
         @media (max-width: 500px){
-            height: 1300px;
+            height: 300px;
             justify-content: center;
             flex-direction: column;
             justify-content: center;

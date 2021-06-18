@@ -12,7 +12,7 @@ const Container = styled.div`
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 100%;
+    height: 100vh;
     width: 100%;
     @media (max-width: 700px){
             justify-content: space-around;
@@ -55,7 +55,14 @@ const ImagenLogo = styled.img`
     height: 200px;
     width: auto;
     filter: invert(100%);
-    
+    @media (max-width: 1441px){
+        height: 200px;
+        width: 800px;
+        }
+        @media (max-width: 700px){
+        
+            transform: scale(0.5);
+        }
     margin-bottom: 200px;
 `
 

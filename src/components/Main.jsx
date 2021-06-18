@@ -95,7 +95,7 @@ const Descripcion = styled.p`
 const DescripcionColumn2 = styled.p`
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 60px;
+    
     color: black;
 `;
 

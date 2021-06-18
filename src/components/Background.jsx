@@ -21,7 +21,7 @@ const StyledVideo = styled.video`
 const Background = () => {
     return ( 
             
-               <StyledVideo autoPlay  muted>
+               <StyledVideo autoPlay  muted >
                 <source src={VideoHeader} type="video/mp4"/>
                 </StyledVideo>  
                

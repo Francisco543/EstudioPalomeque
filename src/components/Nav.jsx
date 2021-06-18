@@ -11,7 +11,7 @@ const SourceContainer = styled.div`
     height: 250px;
     z-index: 100000;
 
-    @media (max-width: 1441px){
+    @media (max-width: 1250px){
             flex-direction: column;
             align-items: center;
             
@@ -41,6 +41,7 @@ const NavItem = styled.a`
     padding-left: 25px;
     font-family: 'Cinzel', serif;
     font-style: italic;
+    font-weight: bold;
     cursor: pointer;
     text-decoration: none;
     text-align:center;
@@ -50,7 +51,7 @@ const NavItem = styled.a`
     }
     @media (max-width: 1441px){
             &:hover{
-                color: #d1c9c9;
+                color: #050404;
             }
         }
         @media (max-width:700px){
@@ -82,9 +83,9 @@ const Logo2 = styled.span`
         }
 
     @media (max-width: 1441px){
-           margin-left: 0px;
+           margin-left: -250px;
         }
-        @media (max-width: 700px){
+        @media (max-width: 1250px){
             margin-left: 0px;
         }
     

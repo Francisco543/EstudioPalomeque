@@ -14,7 +14,7 @@ const StyledCarousel = styled.div`
 const StyledImg = styled.img`
   height: 500px;
   width:100%;
-  filter: grayscale(100%);
+  
 `
 
 const CarrouselDiv = styled.div`

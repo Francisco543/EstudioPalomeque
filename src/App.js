@@ -7,7 +7,7 @@ import Preloader from './components/PreLoader';
 function App() {
   return (
     
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route exact path="/" component = {Preloader}/>
       <Route exact path="/app" component = {AppContainer}/>

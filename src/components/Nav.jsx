@@ -77,11 +77,15 @@ const Logo2 = styled.span`
     font-family: 'Cinzel', serif;
     margin-left: -500px;
 
+    @media (max-width: 1750px){
+           margin-left: -350px;
+        }
+
     @media (max-width: 1441px){
            margin-left: 0px;
         }
         @media (max-width: 700px){
-            
+            margin-left: 0px;
         }
     
 `;

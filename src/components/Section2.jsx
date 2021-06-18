@@ -99,7 +99,7 @@ const Titulo = styled.h1`
     color:#070504;
     font-family: 'Montserrat', sans-serif;
     font-size: 50px;
-    
+    text-align: center;
 `;
 
 const Seccion1 = styled.div`
@@ -130,20 +130,20 @@ const Seccion1 = styled.div`
 const Section2 = () => {
   Aos.init();
   const Penal ={
-    titulo: 'Penal',
-    description:"Robos, hurtos, falsificación de documentos, estafas, defraudaciones, robo de automotores y agravados, abuso de armas, robo calificado."
+    titulo: 'Diseño de procesos',
+    description:"Elaboracion y Adecuacion de Politicas y Procedimientos para su Implementacion y Cumplimiento Normativo. Manuales. Codigos. Lineamientos"
   }
   const Laboral ={
-    titulo: 'Laboral',
-    description:'Nuestro Estudio de abogados cuenta con profesionales especializados en el rubro y una trayectoria de mas de 30 años en Derecho Laboral. Estamos mayormente orientados en la defensa al trabajador, por lo tanto asumimos la defensa en juicio sin costos iniciales. En consecuencia solo se cobrará el 20% del monto que el trabajador perciba. En resumen, solamente cobramos si usted cobra.'
+    titulo: 'REI',
+    description:'Revisor Externo Independiente: Unidad de Informacion Financiera (UIF). Emision y presentacion ante la UIF de informes de revision externa independiente vinculadas al cumplimiento, por su parte de los Sujetos Obligados'
   }
   const Civil ={
-    titulo: 'Civil',
-    description:'Nos especializamos en Derecho Civil, abordando de forma particular cuestiones relativas a Derecho de Familia (Cuota Alimentaria, Divorcios, Régimen de Comunicación, Adopciones, Procesos de filiación), como así también Sucesiones, Accidentes de toda índole, Daños y Perjuicios, Desalojos y Usucapión.'
+    titulo: 'Capacitacion',
+    description:'Diseño y Elaboracion de Programas de Capacitacion para los distintos niveles de recursos humanos'
   }
   const Comercial ={
-    titulo: 'Comercial',
-    description:'Administración de acervo sucesorio. • Acuerdo de participación y división de bienes sucesorios. • Partición de herencia judicial y extrajudicial. • Inscripción registral en los registros de propiedad inmueble, Inspección General de Justicia. Registro de la Propiedad Automotor.'
+    titulo: 'Auditoria',
+    description:'Control interno global de identificacion, evaluacion, migracion y monitoreo de Riesgos de LA/FT. Revisiones integrales para la identificacion de deficiencias o mejoras a aplicar'
   }
 
   const initialState = {
@@ -203,36 +203,39 @@ const Section2 = () => {
             <NavItemSection id="1"  data-aos="fade-up"  data-aos-duration="1200">
               <TituloDiv>
                 <TituloDiv2>
-                  <Titulo >Penal</Titulo>
+                  <Titulo >Diseño de procesos</Titulo>
                 </TituloDiv2>
               </TituloDiv>
-                  <Descripcion>Defensa en la etapa de la instrucción y en el juicio. Excarcelaciones y eximición de prisión. Abreviados.</Descripcion>
+                  <Descripcion>Elaboracion y Adecuacion de Politicas y Procedimientos para su Implementacion y Cumplimiento Normativo. Manuales. Codigos. Lineamientos</Descripcion>
                   <LeerMas onClick={()=> dispatch({type:'seccion1'})}>Leer Mas</LeerMas>
             </NavItemSection>
             <NavItemSection id="2" data-aos="fade-down"  data-aos-duration="1200">
               <TituloDiv>
                 <TituloDiv2>
-                  <Titulo>Laboral</Titulo>
+                  <Titulo>Revisor Externo Ind.</Titulo>
                 </TituloDiv2>
               </TituloDiv>
-                  <Descripcion>Despidos. Indemnizaciones por trabajos realizados en negro ó bajo una registración defectuosa. Diferencias salariales. Indemnizaciones por antigüedad. Indemnizaciones y reclamos por ante la A.R.T. </Descripcion>
+                  <Descripcion>Unidad de Informacion Financiera (UIF). Emision y presentacion ante la UIF de informes de revision externa independiente vinculadas al cumplimiento, por su parte de los Sujetos Obligados</Descripcion>
                   <LeerMas onClick={()=> dispatch({type:'seccion2'})}>Leer Mas</LeerMas>
             </NavItemSection>
             <NavItemSection id="3" data-aos="fade-down"  data-aos-duration="1200">
             <TituloDiv>
                 <TituloDiv2>
-                  <Titulo>Civil</Titulo>
+                  <Titulo>Capacitacion RHH</Titulo>
+                  
                 </TituloDiv2>
               </TituloDiv>
-              <Descripcion>Reclamos por daños y perjuicios derivados por ACCIDENTES DE TRÁNSITO y, hechos ilícitos. Indemnizaciones por no cumplimiento de contratos. Desalojos. Cobro de alquileres. Sucesiones. Divorcios.</Descripcion>
+              <Descripcion>Diseño y Elaboracion de Programas de Capacitacion para los distintos niveles de recursos humanos</Descripcion>
               <LeerMas onClick={()=> dispatch({type:'seccion3'})}>Leer Mas</LeerMas>
             </NavItemSection>
             <NavItemSection id="4" data-aos="fade-up"  data-aos-duration="1200">
             <TituloDiv>
                 <TituloDiv2>
-                  <Titulo>Comercial</Titulo>
+                  <Titulo>Auditoria Y Control</Titulo>
+                  
                 </TituloDiv2>
               </TituloDiv>
+              <Descripcion>Control interno global de identificacion, evaluacion, migracion y monitoreo de Riesgos de LA/FT. Revisiones integrales para la identificacion de deficiencias o mejoras a aplicar</Descripcion>
               <LeerMas onClick={()=> dispatch({type:'seccion4'})}>Leer Mas</LeerMas>
             </NavItemSection>
         </MainContainer>

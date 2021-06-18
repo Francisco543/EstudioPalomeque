@@ -7,6 +7,7 @@ import Section2 from './Section2'
 import Section3 from './Section3'
 import Footer from './Footer'
 import Carousel from './Carousel'
+import Sectores from './Sectores'
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -14,27 +15,19 @@ const Container = styled.div`
     height: auto;
     justify-content:space-between;
     flex-wrap: wrap;
-    margin-top: 0;
-    
+    margin-top: 0;   
 `
-
 const AppContainer = () => {
     return ( 
-
     <Container  id="app">
-
     <Nav></Nav>
     <Carousel></Carousel>
     <Main ></Main>
-    <Section2></Section2>
-
+    <Sectores></Sectores>
     <Section3></Section3>
     <Footer></Footer>
     <Background></Background>
-
-    </Container>
-        
+    </Container> 
      );
 }
- 
 export default AppContainer;

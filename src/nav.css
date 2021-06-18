@@ -13,7 +13,6 @@ div.sticky{
             height:250px;
         }        
     }
-
 div.sticky:hover {
     transition: 500ms;
     background-color: rgb(240, 240, 240);   

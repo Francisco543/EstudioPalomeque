@@ -98,7 +98,6 @@ const DescripcionColumn2 = styled.p`
     
     color: black;
 `;
-
 const Main = () => {
     Aos.init();
     return ( 
@@ -109,7 +108,6 @@ const Main = () => {
                 <ImageFooter>Eugenia Palomeque</ImageFooter>
             </ImageDiv> 
             < DescripcionContainer data-aos="fade-up">
-                
                 <NavItemSection>
                     <TituloDescripcion>Estudio Juridico Palomeque & Asociados</TituloDescripcion>
                     <Descripcion>Estudio Jurídico especializado en Prevención del Lavado de Activos y la Financiación del Terrorismo.<br/>

@@ -13,7 +13,6 @@ const FooterContainer = styled.div`
     
        
 `;
-
 const UlDiv= styled.div`
     display: flex;
     flex-direction: column;
@@ -26,7 +25,6 @@ const UlDiv= styled.div`
    
     
 `;
-
 const FooterItemT = styled.h1`
     color:#eeebe7;
     font-family: 'Montserrat', sans-serif;
@@ -34,7 +32,6 @@ const FooterItemT = styled.h1`
             font-size: 20px;
         }
 `
-
 const FooterItem = styled.ul`
     list-style: none; 
     padding: 0;

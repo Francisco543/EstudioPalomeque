@@ -20,9 +20,10 @@ const FormularioDivItem = styled.div`
 `;
 const TituloFormuladio = styled.h1`
     font-size: 100px;
-    font-family: "adobe-garamond-pro", serif;
+    font-family: 'Raleway', sans-serif;
+    color: #585142;
     font-style: italic;
-    color: #292925;
+    
 `;
 
 const Error = styled.p`
@@ -84,7 +85,7 @@ function enviarEmail(e){
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
             <label for="exampleFormControlInput1" className="form-label">Telefono:</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com" name="phone"></input>
+            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="" name="phone"></input>
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label" >Mensaje</label>

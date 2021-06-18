@@ -16,14 +16,12 @@ const StyledImg = styled.img`
   width:100%;
   
 `
-
 const CarrouselDiv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
     
 `;
-
 
 const Carousel = () => {
     return ( 

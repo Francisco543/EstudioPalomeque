@@ -1,0 +1,58 @@
+div.sticky{
+    background-color:black;
+    height: 150px;
+    position: fixed;
+
+   
+    
+   
+} 
+
+@media (max-width: 1441px){
+    div.sticky{
+        height:210px;
+    }
+        
+    }
+    @media (max-width: 710px){
+        div.sticky{
+            height:250px;
+        }
+            
+        }
+
+div.sticky:hover {
+    transition: 500ms;
+    background-color: rgb(240, 240, 240);
+
+    
+}
+
+div.sticky:hover p{
+    color:black;
+    
+    
+}
+
+div.sticky:hover span{
+    color:black;
+
+    
+}
+div.sticky:hover a{
+    color:black;
+
+   
+
+    
+}
+
+div.sticky a:hover{
+    
+    color: rgb(0, 0, 0)
+}
+
+.styled{
+    height: 5px;
+    background-color: black;
+}

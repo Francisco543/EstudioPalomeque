@@ -48,12 +48,12 @@ const Footer = () => {
     return ( 
         <FooterContainer id="irContacto">
              <UlDiv>
-                 <FooterItemT>Direccion</FooterItemT>
+                 <FooterItemT>Ubicacion</FooterItemT>
                     <span class="material-icons-outlined">
                         room
                     </span>
                 <FooterItem>
-                    <Item>Salguero 1540</Item>
+                    <Item>Capital Federal, Buenos Aires</Item>
                 </FooterItem>
              </UlDiv>
              <UlDiv>
@@ -62,7 +62,7 @@ const Footer = () => {
                         email
                     </span>
                 <FooterItem>
-                    <Item>eugeniapalomeque@yahoo.com.ar</Item>
+                    <Item>estudiojuridicopalomeque@gmail.com</Item>
                 </FooterItem>
              </UlDiv>
              <UlDiv>

@@ -85,17 +85,18 @@ const DescripcionContainer = styled.div`
 const TituloDescripcion = styled.h4`
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
-
+    color: orange;
 `;
 const Descripcion = styled.p`
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color: black;
+    font-weight: bold;
 `;
 const DescripcionColumn2 = styled.p`
     font-size: 20px;
     font-family: 'Montserrat', sans-serif;
-    
+    font-weight: bold;
     color: black;
 `;
 const Main = () => {

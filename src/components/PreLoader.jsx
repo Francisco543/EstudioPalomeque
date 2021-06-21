@@ -5,13 +5,14 @@ import "aos/dist/aos.css"
 import {Link}  from 'react-router-dom';
 import '../estilos.css'
 import logoimagen from '../../src/logoimagen2.png'
-import Background from './Background'
+
+
 const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: black;
+    background-color: #e2d1d1;
     height: 100vh;
     width: 100%;
     @media (max-width: 700px){
@@ -54,7 +55,7 @@ const Logo2 = styled.span`
 const ImagenLogo = styled.img`
     height: 200px;
     width: auto;
-    filter: invert(100%);
+    
     @media (max-width: 1441px){
         height: 200px;
         width: 800px;

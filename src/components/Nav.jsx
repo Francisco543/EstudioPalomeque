@@ -35,8 +35,8 @@ const NavContainer = styled.div`
 `
 
 const NavItem = styled.a`
-    font-size: 15px;
-    color: #ffffff;
+    font-size: 18px;
+    color: #9e7c00;
     padding-right: 25px;
     padding-left: 25px;
     font-family: 'Cinzel', serif;

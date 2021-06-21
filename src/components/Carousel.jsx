@@ -3,10 +3,10 @@ import styled from 'styled-components'
 import imagen1 from './assets/imagenes/abogado.jpg'
 import slide1 from './assets/imagenes/slide1.jpg'
 import slide2 from './assets/imagenes/slide2.jpg'
-import slide3 from './assets/imagenes/slide3.jpg'
+import slide3 from './assets/imagenes/tribunales.jpg'
 import slidebar1 from './assets/imagenes/slidebar1.jpg'
 import banner1 from './assets/imagenes/banner1.png'
-
+import imagenc1 from './assets/imagenes/imagencarrousel1.jpeg'
 const StyledCarousel = styled.div`
   height: 500px;
   width: 100%;
@@ -14,13 +14,30 @@ const StyledCarousel = styled.div`
 const StyledImg = styled.img`
   height: 500px;
   width:100%;
-  
+ 
 `
+
+const StyledImg2 = styled.img`
+  height: 400px;
+  width:80%;
+  margin-left: 10%;
+  @media (max-width: 710px){
+            height: 500px;
+            width: 100%;
+            margin-left: 0;
+            
+        }
+  `
 const CarrouselDiv = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: center;
     
+`;
+
+const CarrouselDiv2 = styled.div`
+    justify-content: center;
+    align-items: center;
 `;
 
 const Carousel = () => {
@@ -37,7 +54,7 @@ const Carousel = () => {
       <StyledImg src={slidebar1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
-      <StyledImg src={banner1} class="d-block w-100" alt="..."/>
+      <StyledImg2 src={banner1} class="d-block w-100" alt="..."/>
     </div>
     <div class="carousel-item">
       <StyledImg src={slide3} class="d-block w-100" alt="..."/>

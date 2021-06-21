@@ -8,6 +8,7 @@ import Section3 from './Section3'
 import Footer from './Footer'
 import Carousel from './Carousel'
 import Sectores from './Sectores'
+import Whatsapp from './Whatsapp'
 const Container = styled.div`
     display: flex;
     flex-direction: column;
@@ -27,6 +28,7 @@ const AppContainer = () => {
     <Section3></Section3>
     <Footer></Footer>
     <Background></Background>
+    <Whatsapp></Whatsapp>
     </Container> 
      );
 }

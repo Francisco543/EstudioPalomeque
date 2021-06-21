@@ -53,7 +53,7 @@ const Footer = () => {
                         room
                     </span>
                 <FooterItem>
-                    <Item>Capital Federal, Buenos Aires</Item>
+                    <Item>Ciudad Autonoma de Buenos Aires, Argentina</Item>
                 </FooterItem>
              </UlDiv>
              <UlDiv>

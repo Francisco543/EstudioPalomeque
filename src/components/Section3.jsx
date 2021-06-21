@@ -21,7 +21,7 @@ const FormularioDivItem = styled.div`
 const TituloFormuladio = styled.h1`
     font-size: 100px;
     font-family: 'Raleway', sans-serif;
-    color: #585142;
+    color: #be8a1a;
     font-style: italic;
     
 `;

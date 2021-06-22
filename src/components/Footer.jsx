@@ -68,10 +68,10 @@ const Footer = () => {
              <UlDiv>
                  <FooterItemT>Whatsapp</FooterItemT>
                     <span class="material-icons-outlined">
-                        smartphone
+                        call
                     </span> 
                 <FooterItem>
-                    <Item>+54 9 114916-9760</Item>
+                    <Item>1135302651</Item>
                 </FooterItem>
              </UlDiv>
             

@@ -7,7 +7,7 @@ const FormularioDiv = styled.form`
     display: flex;
     flex-direction: column;
     background-color: #e7e3d8dc;
-    height: 800px;
+    height: 700px;
     align-items: center;  
 `;
 
@@ -19,10 +19,11 @@ const FormularioDivItem = styled.div`
 
 `;
 const TituloFormuladio = styled.h1`
-    font-size: 100px;
-    font-family: 'Raleway', sans-serif;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
     color: #be8a1a;
-    font-style: italic;
+    font-weight: bold;
+    margin-right: 210px;
     
 `;
 
@@ -51,6 +52,23 @@ const Success = styled.p`
     font-style: italic;
 `;
 
+const Divbar = styled.div`
+    height: 3px;
+    width: 120px;
+    margin-right:370px;
+    bottom:50px;
+    position: relative;
+    background-color: #9c998b;
+
+`;
+
+const LabelForm = styled.label`
+
+font-family: 'Montserrat', sans-serif;
+color: #573909;
+font-weight: bold;
+
+`;
 
 
 const Section3 = () => {
@@ -75,20 +93,22 @@ function enviarEmail(e){
     return ( 
         <FormularioDiv  onSubmit={enviarEmail} data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
         <TituloFormuladio >Contacto</TituloFormuladio>
+        <Divbar></Divbar>
           <FormularioDivItem className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">Nombre</label>
-            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Nombre" name="name"></input>
+            <LabelForm for="exampleFormControlInput1" className="form-label">Nombre:</LabelForm>
+            <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="" name="name"></input>
+              
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">E-mail</label>
-            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="ejemplo@gmail.com" name="email"></input>
+            <LabelForm for="exampleFormControlInput1" className="form-label">E-mail:</LabelForm>
+            <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="" name="email"></input>
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
-            <label for="exampleFormControlInput1" className="form-label">Telefono:</label>
+            <LabelForm for="exampleFormControlInput1" className="form-label">Telefono:</LabelForm>
             <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="" name="phone"></input>
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label" >Mensaje</label>
+            <LabelForm for="exampleFormControlTextarea1" class="form-label" >Mensaje:</LabelForm>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mesagge"></textarea>
           </FormularioDivItem>
           <button type="submit" class="btn btn-secondary">Enviar</button>

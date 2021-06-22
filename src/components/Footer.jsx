@@ -48,7 +48,7 @@ const Footer = () => {
     return ( 
         <FooterContainer id="irContacto">
              <UlDiv>
-                 <FooterItemT>Ubicacion</FooterItemT>
+                 <FooterItemT>Ubicación</FooterItemT>
                     <span class="material-icons-outlined">
                         room
                     </span>
@@ -66,7 +66,7 @@ const Footer = () => {
                 </FooterItem>
              </UlDiv>
              <UlDiv>
-                 <FooterItemT>Whatsapp</FooterItemT>
+                 <FooterItemT>Teléfono</FooterItemT>
                     <span class="material-icons-outlined">
                         call
                     </span> 

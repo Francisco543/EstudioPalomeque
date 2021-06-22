@@ -8,7 +8,6 @@ import "aos/dist/aos.css"
 const MainContainer = styled.div`
     display: flex;
     flex-direction: row;
-    
     background-color: #f3efef9d;
     height: 500px;
     align-items: center;
@@ -103,7 +102,7 @@ const Main = () => {
     Aos.init();
     return ( 
 
-        <MainContainer id="irPractica" data-aos="fade-left" >
+        <MainContainer id="irPractica" data-aos="fade-right" >
             <ImageDiv data-aos="fade-right">
                 <ImagenEuge src={euge}></ImagenEuge>
                 <ImageFooter>Eugenia Palomeque</ImageFooter>

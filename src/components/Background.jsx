@@ -4,6 +4,7 @@ import VideoHeader from './assets/videos/fondo.mp4'
 const StyledVideo = styled.video`
     position: fixed;
     z-index: -1; 
+    
     @media (min-aspect-ratio:16/9){
         width: 100%;
         height: auto;
@@ -16,7 +17,7 @@ const StyledVideo = styled.video`
 
 const Background = () => {
     return (         
-        <StyledVideo autoPlay  muted >
+        <StyledVideo autoPlay  muted controls="false">
             <source src={VideoHeader} type="video/mp4"/>
         </StyledVideo>  
                

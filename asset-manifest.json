@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EstudioPalomeque/static/css/main.16777607.chunk.css",
-    "main.js": "/EstudioPalomeque/static/js/main.78b11620.chunk.js",
-    "main.js.map": "/EstudioPalomeque/static/js/main.78b11620.chunk.js.map",
+    "main.js": "/EstudioPalomeque/static/js/main.6eb805fd.chunk.js",
+    "main.js.map": "/EstudioPalomeque/static/js/main.6eb805fd.chunk.js.map",
     "runtime-main.js": "/EstudioPalomeque/static/js/runtime-main.cac8ea7a.js",
     "runtime-main.js.map": "/EstudioPalomeque/static/js/runtime-main.cac8ea7a.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/EstudioPalomeque/static/css/2.7fc9bc2b.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.c2c16ced.chunk.js",
     "static/css/main.16777607.chunk.css",
-    "static/js/main.78b11620.chunk.js"
+    "static/js/main.6eb805fd.chunk.js"
   ]
 }

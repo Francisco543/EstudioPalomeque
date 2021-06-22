@@ -7,6 +7,7 @@ import "aos/dist/aos.css"
 const FormularioDiv = styled.form`
     display: flex;
     flex-direction: column;
+    
     justify-content: center;
     background-color: #ffffff8b;
     height: 700px;
@@ -74,6 +75,11 @@ font-weight: bold;
 
 `;
 
+const TextArea = styled.textarea`
+  resize: none;
+
+`
+
 
 const Section3 = () => {
     Aos.init();
@@ -113,7 +119,7 @@ function enviarEmail(e){
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
             <LabelForm for="exampleFormControlTextarea1" class="form-label" >Mensaje:</LabelForm>
-            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="mesagge" ></textarea>
+            <TextArea className="form-control" id="exampleFormControlTextarea1" rows="3" name="mesagge" ></TextArea>
           </FormularioDivItem>
           <button type="submit" class="btn btn-secondary">Enviar</button>
 

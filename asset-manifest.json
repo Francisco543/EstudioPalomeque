@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/EstudioPalomeque/static/css/main.16777607.chunk.css",
-    "main.js": "/EstudioPalomeque/static/js/main.6eb805fd.chunk.js",
-    "main.js.map": "/EstudioPalomeque/static/js/main.6eb805fd.chunk.js.map",
+    "main.css": "/EstudioPalomeque/static/css/main.eb399edd.chunk.css",
+    "main.js": "/EstudioPalomeque/static/js/main.0cd6cd7a.chunk.js",
+    "main.js.map": "/EstudioPalomeque/static/js/main.0cd6cd7a.chunk.js.map",
     "runtime-main.js": "/EstudioPalomeque/static/js/runtime-main.cac8ea7a.js",
     "runtime-main.js.map": "/EstudioPalomeque/static/js/runtime-main.cac8ea7a.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/EstudioPalomeque/static/css/2.7fc9bc2b.chunk.css",
@@ -12,14 +12,19 @@
     "static/js/3.c520e3ec.chunk.js.map": "/EstudioPalomeque/static/js/3.c520e3ec.chunk.js.map",
     "index.html": "/EstudioPalomeque/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/EstudioPalomeque/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.16777607.chunk.css.map": "/EstudioPalomeque/static/css/main.16777607.chunk.css.map",
+    "static/css/main.eb399edd.chunk.css.map": "/EstudioPalomeque/static/css/main.eb399edd.chunk.css.map",
     "static/js/2.c2c16ced.chunk.js.LICENSE.txt": "/EstudioPalomeque/static/js/2.c2c16ced.chunk.js.LICENSE.txt",
     "static/media/abogado.5b861dd1.jpg": "/EstudioPalomeque/static/media/abogado.5b861dd1.jpg",
+    "static/media/archivo.1fc32561.png": "/EstudioPalomeque/static/media/archivo.1fc32561.png",
+    "static/media/auditor.bec3af8f.png": "/EstudioPalomeque/static/media/auditor.bec3af8f.png",
     "static/media/banner1.00899704.png": "/EstudioPalomeque/static/media/banner1.00899704.png",
+    "static/media/capacitacion.5d088cc8.png": "/EstudioPalomeque/static/media/capacitacion.5d088cc8.png",
+    "static/media/entrevista.6ce38a81.png": "/EstudioPalomeque/static/media/entrevista.6ce38a81.png",
     "static/media/fondo.fd85dacc.mp4": "/EstudioPalomeque/static/media/fondo.fd85dacc.mp4",
     "static/media/imagencarrousel1.dd958825.jpeg": "/EstudioPalomeque/static/media/imagencarrousel1.dd958825.jpeg",
     "static/media/logo.c7744c6f.png": "/EstudioPalomeque/static/media/logo.c7744c6f.png",
     "static/media/logoimagen2.c241d392.png": "/EstudioPalomeque/static/media/logoimagen2.c241d392.png",
+    "static/media/proceso-de-diseno.fca1e00b.png": "/EstudioPalomeque/static/media/proceso-de-diseno.fca1e00b.png",
     "static/media/slide1.4de0ca39.jpg": "/EstudioPalomeque/static/media/slide1.4de0ca39.jpg",
     "static/media/slide2.b3e33311.jpg": "/EstudioPalomeque/static/media/slide2.b3e33311.jpg",
     "static/media/slidebar1.e978b794.jpg": "/EstudioPalomeque/static/media/slidebar1.e978b794.jpg",
@@ -30,7 +35,7 @@
     "static/js/runtime-main.cac8ea7a.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.c2c16ced.chunk.js",
-    "static/css/main.16777607.chunk.css",
-    "static/js/main.6eb805fd.chunk.js"
+    "static/css/main.eb399edd.chunk.css",
+    "static/js/main.0cd6cd7a.chunk.js"
   ]
 }

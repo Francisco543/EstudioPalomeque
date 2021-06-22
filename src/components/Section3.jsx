@@ -3,14 +3,14 @@ import styled from 'styled-components'
 import emailjs,{init} from 'emailjs-com'
 import Aos from "aos"
 import "aos/dist/aos.css"
+
 const FormularioDiv = styled.form`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #e7e3d8dc;
+    background-color: #ffffff8b;
     height: 700px;
     align-items: center; 
-    
    
 `;
 
@@ -60,7 +60,7 @@ const Divbar = styled.div`
     height: 3px;
     width: 120px;
     margin-right:370px;
-    bottom:50px;
+    bottom:17px;
     position: relative;
     background-color: #9c998b;
 

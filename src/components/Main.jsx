@@ -13,7 +13,7 @@ const MainContainer = styled.div`
     align-items: center;
     justify-content: space-around;
     @media (max-width: 1441px){
-            height: 820px;
+            height: 650px;
             justify-content: center;
             flex-direction: column;
             justify-content: center;

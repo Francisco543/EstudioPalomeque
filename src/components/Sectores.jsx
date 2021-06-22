@@ -7,14 +7,14 @@ import imgentrevista from './assets/imagenes/entrevista.png'
 import imgarchivo from './assets/imagenes/archivo.png'
 const Sectores = () => {
     return (  
-<div className="container">
+<div className="container" >
   <div className="card" id="card1">
     <h1 className="titulo">Diseño de procesos</h1>
     <img src={imgproceso}></img>
     <p className="descripcion">Elaboración y Adecuación de Políticas y Procedimientos para su Implementación y Cumplimiento Normativo. Manuales. Códigos. Lineamientos</p>
   </div>
 
-  <div className="card" id="card2">
+  <div className="card" id="card2" >
   <h1 className="titulo">REI</h1>
   <p className="descripcion">Revisor Externo Independiente: Unidad de Información Financiera (UIF). Emisión y presentación ante la UIF de informes de revisión externa independiente vinculadas al cumplimiento, por su parte de los Sujetos Obligados</p>
   </div>

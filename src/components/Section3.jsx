@@ -6,9 +6,12 @@ import "aos/dist/aos.css"
 const FormularioDiv = styled.form`
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: #e7e3d8dc;
     height: 700px;
-    align-items: center;  
+    align-items: center; 
+    
+   
 `;
 
 const FormularioDivItem = styled.div`
@@ -16,7 +19,7 @@ const FormularioDivItem = styled.div`
       @media (max-width: 500px){
             width: 300px;
         }
-
+    
 `;
 const TituloFormuladio = styled.h1`
     font-size: 70px;
@@ -24,6 +27,7 @@ const TituloFormuladio = styled.h1`
     color: #be8a1a;
     font-weight: bold;
     margin-right: 210px;
+    
     
 `;
 
@@ -109,7 +113,7 @@ function enviarEmail(e){
           </FormularioDivItem>
           <FormularioDivItem className="mb-3">
             <LabelForm for="exampleFormControlTextarea1" class="form-label" >Mensaje:</LabelForm>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mesagge"></textarea>
+            <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" name="mesagge" ></textarea>
           </FormularioDivItem>
           <button type="submit" class="btn btn-secondary">Enviar</button>
 

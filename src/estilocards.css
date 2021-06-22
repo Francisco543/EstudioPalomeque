@@ -102,3 +102,13 @@ img{
     width: 100px;
     height: 100px;
 }
+
+@media (max-width: 1420px){
+    .container .card {
+        min-width: 400px;
+        max-width: 500px;
+        height: 370px;
+        margin: 10px;
+        transition: 0.5s;
+      }
+}

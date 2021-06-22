@@ -16,7 +16,7 @@ const Container = styled.div`
     height: 100vh;
     width: 100%;
     @media (max-width: 700px){
-            justify-content: space-around;
+            justify-content: center;
             
         }
     
@@ -61,8 +61,9 @@ const ImagenLogo = styled.img`
         width: 800px;
         }
         @media (max-width: 700px){
-        
-            transform: scale(0.5);
+            
+            height: 150px;
+            width: 420px;
         }
     margin-bottom: 200px;
 `

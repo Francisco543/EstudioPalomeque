@@ -91,3 +91,9 @@
 #card6 .titulo{
     color: rgb(199, 136, 18);
 }
+
+img{
+    align-self: center;
+    width: 100px;
+    height: 100px;
+}

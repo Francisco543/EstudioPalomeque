@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import styled from 'styled-components'
 import '../nav.css'
 import Logo12 from './assets/imagenes/logo.png'
@@ -114,24 +114,35 @@ const  Nav= () => {
   
 
     return ( 
+               <Fragment>
                 
-                <SourceContainer id="Nav">
-                <LogoImagen src={Logo12}></LogoImagen>
-                <Logo2>Estudio Juridico</Logo2>
-                    <NavContainer>
-                    <NavItem href="#irEstudio" className="animate__animated animate__fadeIn animate__delay-1s">
-                        Estudio
-                    </NavItem>
-                    <NavItem href="#irPractica" className="animate__animated animate__fadeIn animate__delay-1s">
-                       Areas de practica
-                    </NavItem>   
-                    <NavItem href="#irContacto" className="animate__animated animate__fadeIn animate__delay-1s">
-                       Contacto
-                    </NavItem>  
-                </NavContainer>
-                    
-                </SourceContainer>  
-          
+
+            <nav id="Nav" class="navbar sticky-top navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+               <LogoImagen className="logo" src={Logo12}></LogoImagen> 
+            <a class="navbar-brand" href="#">
+             Estudio Juridico
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">ESTUDIO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">AREAS DE PRACTICA</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">CONTACTO</a>
+                </li>
+                
+                </ul>
+            </div>
+            </div>
+            </nav>
+          </Fragment> 
      );
 }
  

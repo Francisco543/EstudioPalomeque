@@ -7,7 +7,6 @@ import "aos/dist/aos.css"
 const FormularioDiv = styled.form`
     display: flex;
     flex-direction: column;
-    
     justify-content: center;
     background-color: #ffffff8b;
     height: 700px;

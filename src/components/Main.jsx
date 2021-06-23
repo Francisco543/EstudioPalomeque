@@ -20,7 +20,7 @@ const MainContainer = styled.div`
             align-items: center;
         }
         @media (max-width: 710px){
-            height: 920px;
+            height: 700px;
             justify-content: center;
             flex-direction: column;
             justify-content: center;
@@ -66,6 +66,10 @@ const NavItemSection = styled.div`
     width: 40%;
     border-radius: 15px;
     margin-left: 60px;
+
+    @media (max-width: 710px){
+            width: 90%;
+        }
 `;
 
 const DescripcionContainer = styled.div`
@@ -73,11 +77,16 @@ const DescripcionContainer = styled.div`
     flex-direction: row;
     justify-content:space-around;
     width: 50%;
-    height: 90%;
+    
     justify-content: center;
     align-items: center;
     @media (max-width: 1441px){
             width: 100%;
+        }
+        @media (max-width: 710px){
+            flex-direction: column;
+            width: 90%;
+            justify-content: center;
         }
 `;
 

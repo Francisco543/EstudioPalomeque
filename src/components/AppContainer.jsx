@@ -1,9 +1,8 @@
-import React,{useState} from 'react';
+import React from 'react';
 import Background from './Background'
 import Nav from './Nav'
 import styled from 'styled-components'
 import Main from './Main'
-import Section2 from './Section2'
 import Section3 from './Section3'
 import Footer from './Footer'
 import Carousel from './Carousel'
@@ -19,24 +18,16 @@ const Container = styled.div`
     flex-wrap: wrap;
     margin-top: 0;   
 `
-
-
-
 const AppContainer = () => {
-
-  
-    
     return ( 
     <Container  id="app">
     <Nav></Nav>
     <Carousel></Carousel>
-    <Main ></Main>
-    <Sectores></Sectores>
+    <Main  ></Main>
+    <Sectores ></Sectores>
     <Section3></Section3>
     <Footer></Footer>
     <Background></Background>  
-    
-    
     <Whatsapp></Whatsapp>
     </Container> 
      );

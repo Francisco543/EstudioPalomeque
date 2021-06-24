@@ -46,7 +46,7 @@ const Item = styled.li`
 `
 const Footer = () => {
     return ( 
-        <FooterContainer id="irContacto">
+        <FooterContainer >
              <UlDiv>
                  <FooterItemT>Ubicación</FooterItemT>
                     <span class="material-icons-outlined">

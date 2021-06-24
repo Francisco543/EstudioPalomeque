@@ -22,36 +22,6 @@ const Container = styled.div`
     
 `;
 
-const Logo = styled.p`
-
-    color:#ffffff;
-    font-family: 'Cinzel', serif;
-    font-size: 200px;
-
-    @media (max-width: 1441px){
-        font-size: 150px;
-        }
-        @media (max-width: 700px){
-            font-size: 100px;
-            
-        }
-    
-`;
-const Logo2 = styled.span`
-    font-size: 100px;
-    color:#ffffff;
-    font-family: 'Cinzel', serif;
-    @media (max-width: 1441px){
-        font-size: 70px;
-        }
-        @media (max-width: 700px){
-        
-            font-size: 30px;
-        }
-    
-    
-`;
-
 const ImagenLogo = styled.img`
     height: 200px;
     width: auto;
@@ -67,8 +37,6 @@ const ImagenLogo = styled.img`
         }
     margin-bottom: 200px;
 `
-
-var show=false;
 const Preloader = () => {
     Aos.init();
 

@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 import styled from 'styled-components'
-import emailjs,{init} from 'emailjs-com'
+import emailjs from 'emailjs-com'
 import Aos from "aos"
 import "aos/dist/aos.css"
 
@@ -27,7 +27,9 @@ const TituloFormuladio = styled.h1`
     color: #be8a1a;
     font-weight: bold;
     margin-right: 210px;
-    
+    @media (max-width: 500px){
+            margin-right: 260;
+        }
     
 `;
 
@@ -100,7 +102,7 @@ function enviarEmail(e){
 }
 
     return ( 
-        <FormularioDiv  onSubmit={enviarEmail} data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
+        <FormularioDiv id="irContacto" onSubmit={enviarEmail} data-aos="fade-up" data-aos-delay="300" data-aos-duration="500">
         <TituloFormuladio >Contacto</TituloFormuladio>
         <Divbar></Divbar>
           <FormularioDivItem className="mb-3">

@@ -1,12 +1,9 @@
 import React from 'react'
 import styled from 'styled-components'
-import imagen1 from './assets/imagenes/abogado.jpg'
-import slide1 from './assets/imagenes/slide1.jpg'
-import slide2 from './assets/imagenes/slide2.jpg'
 import slide3 from './assets/imagenes/tribunales.jpg'
 import slidebar1 from './assets/imagenes/slidebar1.jpg'
 import banner1 from './assets/imagenes/banner1.png'
-import imagenc1 from './assets/imagenes/imagencarrousel1.jpeg'
+
 const StyledCarousel = styled.div`
   height: 500px;
   width: 100%;
@@ -33,11 +30,6 @@ const CarrouselDiv = styled.div`
     flex-direction: row;
     justify-content: center;
     
-`;
-
-const CarrouselDiv2 = styled.div`
-    justify-content: center;
-    align-items: center;
 `;
 
 const Carousel = () => {

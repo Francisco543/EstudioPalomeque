@@ -111,7 +111,7 @@ const Main = () => {
     Aos.init();
     return ( 
 
-        <MainContainer id="irPractica" data-aos="fade-right" >
+        <MainContainer  data-aos="fade-right" id="irEstudio" >
             <ImageDiv data-aos="fade-right">
                 <ImagenEuge src={euge}></ImagenEuge>
                 <ImageFooter>Eugenia Palomeque</ImageFooter>
@@ -123,7 +123,7 @@ const Main = () => {
                         Revisor Externo Independiente, acreditada ante la Unidad de Información Financiera (UIF)</Descripcion>
                 </NavItemSection>
                 <NavItemSection>
-                    <DescripcionColumn2>
+                    <DescripcionColumn2 >
                         <ul>
                             <li>Medidas contra el lavado de dinero</li>
                             <li>Mercado de capitales</li>

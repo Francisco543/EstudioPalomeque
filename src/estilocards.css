@@ -113,3 +113,13 @@ img{
         transition: 0.5s;
       }
 }
+
+@media (max-width: 400px){
+    .container .card {
+        min-width: 400px;
+        max-width: 500px;
+        height: 400px;
+        margin: 10px;
+        transition: 0.5s;
+      }
+}

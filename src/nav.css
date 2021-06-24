@@ -42,9 +42,8 @@ nav.sticky a:hover{
     color: #9e7c00 !important;
 }
 .navbar{
-    margin-top: 50px;
     margin-bottom: 50px;
-     
+    margin-top: 50px;
 }
 
 .container-fluid{

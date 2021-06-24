@@ -3,8 +3,8 @@ import styled from 'styled-components'
 import Aos from "aos"
 import "aos/dist/aos.css"
 import {Link}  from 'react-router-dom';
-import '../estilos.css'
-import logoimagen from '../../src/logoimagen2.png'
+import '../css/estilos.css'
+import logoimagen from '../components/assets/imagenes/logoimagen2.png'
 
 
 const Container = styled.div`

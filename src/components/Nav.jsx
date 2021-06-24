@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import '../nav.css'
+import '../css/nav.css'
 import Logo12 from './assets/imagenes/logo.png'
 
 const LogoImagen = styled.img`

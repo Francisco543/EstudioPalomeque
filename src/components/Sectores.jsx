@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilocards.css';
+import '../css/estilocards.css';
 import imgaudit from './assets/imagenes/auditoria2.png'
 import imgproceso from './assets/imagenes/proceso-de-diseno.png'
 import imgcapacitacion from './assets/imagenes/capacitacion.png'

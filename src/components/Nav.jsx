@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import '../css/nav.css'
 import Logo12 from './assets/imagenes/logo.png'
-
+import {Link}  from 'react-router-dom';
 const LogoImagen = styled.img`
     width: 100px;
     height: 100px;
@@ -29,13 +29,19 @@ const  Nav= () => {
             <div class="collapse navbar-collapse " id="navbarNavDropdown">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#irEstudio">ESTUDIO</a>
+                <Link to={'/app'} className="nav-link active" >
+                    ESTUDIO
+                    </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#irSectores">AREAS DE PRACTICA</a>
+                    <Link to={'/AreasDePractica'} className="nav-link active" >
+                    AREAS DE PRACTICA
+                    </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#irContacto">CONTACTO</a>
+                <Link to={'/Contacto'} className="nav-link active" >
+                    CONTACTO
+                    </Link>
                 </li>
                 
                 </ul>

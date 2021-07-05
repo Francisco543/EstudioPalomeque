@@ -25,7 +25,7 @@ const Imagen = styled.img`
 const Whatsapp = () => {
     return ( 
         <Container>
-            <Link href="https://wa.me/5491133097174"></Link>
+            <Link href="https://wa.me/5491133097174" target="_blank"></Link>
             <Imagen src={img}>
             </Imagen>
         </Container>

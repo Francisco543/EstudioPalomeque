@@ -1,22 +1,26 @@
 {
   "files": {
-    "main.css": "/EstudioPalomeque/static/css/main.0a537187.chunk.css",
-    "main.js": "/EstudioPalomeque/static/js/main.f53115f7.chunk.js",
-    "main.js.map": "/EstudioPalomeque/static/js/main.f53115f7.chunk.js.map",
+    "main.css": "/EstudioPalomeque/static/css/main.c82f6349.chunk.css",
+    "main.js": "/EstudioPalomeque/static/js/main.807e1093.chunk.js",
+    "main.js.map": "/EstudioPalomeque/static/js/main.807e1093.chunk.js.map",
     "runtime-main.js": "/EstudioPalomeque/static/js/runtime-main.108eb500.js",
     "runtime-main.js.map": "/EstudioPalomeque/static/js/runtime-main.108eb500.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/EstudioPalomeque/static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.5e00328d.chunk.js": "/EstudioPalomeque/static/js/2.5e00328d.chunk.js",
-    "static/js/2.5e00328d.chunk.js.map": "/EstudioPalomeque/static/js/2.5e00328d.chunk.js.map",
+    "static/js/2.732c84f2.chunk.js": "/EstudioPalomeque/static/js/2.732c84f2.chunk.js",
+    "static/js/2.732c84f2.chunk.js.map": "/EstudioPalomeque/static/js/2.732c84f2.chunk.js.map",
     "static/js/3.f1204eff.chunk.js": "/EstudioPalomeque/static/js/3.f1204eff.chunk.js",
     "static/js/3.f1204eff.chunk.js.map": "/EstudioPalomeque/static/js/3.f1204eff.chunk.js.map",
     "index.html": "/EstudioPalomeque/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/EstudioPalomeque/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.0a537187.chunk.css.map": "/EstudioPalomeque/static/css/main.0a537187.chunk.css.map",
-    "static/js/2.5e00328d.chunk.js.LICENSE.txt": "/EstudioPalomeque/static/js/2.5e00328d.chunk.js.LICENSE.txt",
+    "static/css/main.c82f6349.chunk.css.map": "/EstudioPalomeque/static/css/main.c82f6349.chunk.css.map",
+    "static/js/2.732c84f2.chunk.js.LICENSE.txt": "/EstudioPalomeque/static/js/2.732c84f2.chunk.js.LICENSE.txt",
+    "static/media/REI.94029d8f.jpg": "/EstudioPalomeque/static/media/REI.94029d8f.jpg",
+    "static/media/abogado.16832a2b.jpg": "/EstudioPalomeque/static/media/abogado.16832a2b.jpg",
     "static/media/archivo.1fc32561.png": "/EstudioPalomeque/static/media/archivo.1fc32561.png",
+    "static/media/auditoria.20370e84.jpg": "/EstudioPalomeque/static/media/auditoria.20370e84.jpg",
     "static/media/auditoria2.9940c18d.png": "/EstudioPalomeque/static/media/auditoria2.9940c18d.png",
     "static/media/banner1.00899704.png": "/EstudioPalomeque/static/media/banner1.00899704.png",
+    "static/media/capacitacion.3a9defb9.jpg": "/EstudioPalomeque/static/media/capacitacion.3a9defb9.jpg",
     "static/media/capacitacion.5d088cc8.png": "/EstudioPalomeque/static/media/capacitacion.5d088cc8.png",
     "static/media/entrevista.6ce38a81.png": "/EstudioPalomeque/static/media/entrevista.6ce38a81.png",
     "static/media/fondo.fd85dacc.mp4": "/EstudioPalomeque/static/media/fondo.fd85dacc.mp4",
@@ -30,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.108eb500.js",
     "static/css/2.7fc9bc2b.chunk.css",
-    "static/js/2.5e00328d.chunk.js",
-    "static/css/main.0a537187.chunk.css",
-    "static/js/main.f53115f7.chunk.js"
+    "static/js/2.732c84f2.chunk.js",
+    "static/css/main.c82f6349.chunk.css",
+    "static/js/main.807e1093.chunk.js"
   ]
 }
